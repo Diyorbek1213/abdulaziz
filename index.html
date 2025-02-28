@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Портфолио Школьников</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: grey;
+            
+        }
+        header {
+            background-color: white;
+            color: black;
+            padding: 20px;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+        }
+        text {
+            display: flex;
+            justify-content: center;
+            color: black;
+
+        }
+        header img {
+            margin-left: 15px;
+            width: 150px;
+            height: 150px;
+            display: flex;
+            justify-content: right;
+        }
+        nav {
+            background-color: black;
+            overflow: hidden;
+        }
+        nav a {
+            float: left;
+            display: block;
+            color: white;
+            padding: 14px 16px;
+            text-align: center;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: white;
+            color: black;
+        }
+        .portfolio {
+            display: flex;
+            flex-wrap: wrap;
+         justify-content: space-around;
+            padding: 20px;
+
+        }
+        .student-card {
+            background-color: white;
+            margin: 10px;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 20%;
+            text-align: center;
+            transition: transform 0.3s ease-in-out;
+            width: 400px;
+            height: 400px;
+        }
+        .student-card:hover {
+            transform: scale(1.05);
+        }
+        .student-card img {
+            width: 400px;
+            height: 300px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+        .student-card h3 {
+            margin-top: 10px;
+            font-size: 1.2em;
+        }
+        .student-card p {
+            font-size: 0.9em;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="text">
+        <h1>Регистан</h1>
+        <h1>Портфолио Школьников Регистан</h1>
+        <p>Познакомьтесь с нашими школьниками </p>
+    </div>
+    <div class="logo">
+        <img src="https://scontent.ftas1-2.fna.fbcdn.net/v/t39.30808-6/340002779_775299417131832_486551459153294299_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=XnlJC1qL6V8Q7kNvgFcjvoy&_nc_oc=Adh1uORyVRJ4IjCakeE6lW9kVQLVs_3zMoQ-g_gjilC4lIFu3HVdcC_grWnxtWJ4gFg&_nc_zt=23&_nc_ht=scontent.ftas1-2.fna&_nc_gid=AcDGvly3TJV9cUbjL-dpqLF&oh=00_AYAD_kZhsO7pgXj__Ov-eHlhmwVfsjwNmvmLSRsAKaHC3g&oe=67C1E05C" alt="">
+    </div>
+    </header>
+
+    <nav>
+        <a href="./Контакты.html">Контакты</a>
+        <a href="./о нас.html">О нас</a>
+        <a href="./Про Школу.html">Про Школу</a>
+        <a href="./РЕгис.html">Регистрация</a>
+    </nav>
+
+    <div class="portfolio">
+        <!-- Карточки школьников -->
+        
+      
+        <div class="student-card">
+            <img src="./shoxjaxon.JPG" alt="Школьник 3">
+            <h3>Шохжахон</h3>
+            <p>Описание школьника </p>
+            <p>Любит литературу и участвует в школьных спектаклях.</p>
+        </div>
+        <div class="student-card">
+            <img src="./Bahodir.JPG"Школьник 4">
+            <h3>Баходир</h3>
+            <p>Описание школьника </p>
+            <p>Увлекается программированием и разрабатывает приложения.</p>
+        </div>
+        <div class="student-card">
+            <img src="./Muhiddin.JPG" alt="Школьник 5">
+            <h3>Мухиддин</h3>
+            <p>Описание школьника </p>
+            <p>Занимается спортом и регулярно участвует в соревнованиях.</p>
+        </div>
+        <div class="student-card">
+            <img src="./Oyatillo.JPG" alt="Школьник 6">
+            <h3>Оятилло</h3>
+            <p>Описание школьника </p>
+            <p>Интересуется музыкой и играет на гитаре.</p>
+        </div>
+        <div class="student-card">
+            <img src="./Mahmudjon.JPG" alt="Школьник 7">
+            <h3>Махмуджон</h3>
+            <p>Описание школьника </p>
+            <p>Экологический активист, ведет проект по защите окружающей среды.</p>
+        </div>
+        <div class="student-card">
+            <img src="./yaxyo.JPG" alt="Школьник 8">
+            <h3>Яхье</h3>
+            <p>Описание школьника </p>
+            <p>Исследует историю и участвует в исторических олимпиадах.</p>
+        </div>
+        <div class="student-card">
+            <img src="./muhammadrasul.JPG" alt="Школьник 9">
+            <h3>Расул</h3>
+            <p>Описание школьника </p>
+            <p>Интересуется дизайном и разрабатывает графические проекты.</p>
+        </div>
+        
+    </div>
+</body>
+</html>

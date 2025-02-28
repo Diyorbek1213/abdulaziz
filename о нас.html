@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Портфолио учеников</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        header h1 {
+            font-size: 36px;
+            margin: 0;
+        }
+        section {
+            padding: 20px;
+        }
+        .portfolio {
+            width: 100%;
+            display: flex;
+            justify-content: space-evenly;
+        }
+        .portfolio2 {
+            width: 100%;
+            display: flex;
+            justify-content: space-evenly;
+        }
+        .student-card {
+            width: 300px;
+            background-color: white;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .student-card img {
+            width: 100%;
+            height: 300px;
+            border-radius: 50%;
+        }
+        .student-card h3 {
+            margin-top: 10px;
+            font-size: 1.2em;
+            color: #333;
+        }
+        .student-card p {
+            color: #555;
+        }
+        .about-us {
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            font-size: 30px;
+        }
+        .about-us h2 {
+            text-align: center;
+            font-size: 2em;
+            text-align: center;
+
+        }
+
+        .portfolio-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+        nav {
+            background-color: black;
+            overflow: hidden;
+        }
+        nav a {
+            float: left;
+            display: block;
+            color: white;
+            padding: 14px 16px;
+            text-align: center;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: white;
+            color: black;
+        }
+
+        .teacher-card {
+            background-color: #fff;
+            margin: 20px;
+            width: 300px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            text-align: center;
+        }
+
+        .teacher-card img {
+            width: 100%;
+            height: 400px;
+            object-fit: cover;
+        }
+
+        .teacher-card h3 {
+            margin: 10px 0;
+            font-size: 24px;
+            color: #4CAF50;
+        }
+
+        .teacher-card p {
+            padding: 0 15px;
+            color: #666;
+            font-size: 16px;
+            line-height: 1.5;
+        }
+
+        .teacher-card .btn {
+            display: inline-block;
+            margin: 15px 0;
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        .teacher-card .btn:hover {
+            background-color: #45a049;
+        }
+        .glavi{
+            width:200px ;
+            height: 200px;
+            border-radius: 50%;
+            background-image :url(./Anvarov\ A..JPG.);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .glavu{
+            width:200px ;
+            height: 200px;
+            border-radius: 50%;
+            background-image :url(./Djurayeva\ N..JPG);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .glave{
+            width:200px ;
+            height: 200px;
+            border-radius: 50%;
+            background-image :url(./O.Djurayevna.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>О нас</h1>
+</header>
+
+
+
+
+<section class="about-us">
+    <p>Главы школы</p>
+</section>
+<nav>
+    <a href="./index.html">Портфолио</a>
+    <a href="./Контакты.html">Контакты</a>
+    <a href="./Про Школу.html">Про Школу</a>
+    <a href="./РЕгис.html">Регистрация</a>
+</nav>
+<section class="portfolio">
+    <div class="student-card">
+        <div class="glave"></div>
+        <h3>Ozoda Jo'raevna</h3>
+        <p>Директор Школы</p>
+    </div>
+    <div class="student-card">
+        <div class="glavu"></div>
+        <h3>Nasiba Jo'raevna</h3>
+        <p>Зам глава Школы</p>
+    </div>
+    <div class="student-card">
+        <div class="glavi"></div>
+        <h3>Алишер Анворавич
+        </h3>
+        <p>Зауч Школы</p>
+    </div>
+</section>
+<header>
+    <h1>Портфолио Учителей</h1>
+</header>
+
+<div class="portfolio-container">
+    <!-- Карточка учителя 1 -->
+    <div class="teacher-card">
+        <img src="./Muhammadaziz.JPG" alt="Учитель 1">
+        <h3>Икболдинович Мухаммадазиз</h3>
+        <p>Опыт работы: 5 лет. Специализация: Учитель Русского языка и литературы.</p> <p>Мухаммадазиз способствует развитию аналитического мышления и любви к литературе у своих учеников.</p>
+        <a href="teacher1.html" class="btn">Узнать больше</a>
+    </div>
+
+    <!-- Карточка учителя 2 -->
+    <div class="teacher-card">
+        <img src="./D.Haydarov.JPG" alt="Учитель 2">
+        <h3>Диёрбек Хайдаров</h3>
+        <p>Опыт работы: 5 лет. Специализация: Информатики .</p> <p> Диёрбек помогает ученикам понять важность информатических устройств и их влияние на современный мир.</p>
+        <a href="teacher2.html" class="btn">Узнать больше</a>
+    </div>
+
+    <!-- Карточка учителя 3 -->
+    <div class="teacher-card">
+        <img src="./Nigora R..JPG" alt="Учитель 3">
+        <h3>Нигора Руслановна</h3>
+        <p>Опыт работы: 5 лет. Специализация: Учительница Английсского языка.</p> <p> Нигора использует современные методики и подходы к обучению, вдохновляя студентов на успех.</p>
+        <a href="teacher3.html" class="btn">Узнать больше</a>
+    </div>
+</div>
+</section>
+
+</body>
+</html>
